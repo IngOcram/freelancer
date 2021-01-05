@@ -3,6 +3,7 @@
     --obscuro: #212121;
     --primario: #FFC107;
     --secundario: #0097a7;
+    --gris: #757575;
 }
 
 html {
@@ -11,6 +12,7 @@ html {
 
 body {
     font-size: 16px;
+    font-family: 'Krub', sans-serif;
     /* 1rem = 10px */
 }
 

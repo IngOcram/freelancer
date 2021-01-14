@@ -5,10 +5,10 @@
     --secundario: #0097a7;
     --gris: #757575;
 }
-
+/* Globales */
 html {
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Hack para box-model */
 }
 
 *, *:before, *:after {
@@ -19,27 +19,6 @@ body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
     /* 1rem = 10px */
-}
-
-h1 {
-    font-size: 3.8rem;
-}
-
-h2 {
-    font-size: 2.8rem;
-}
-
-h3 {
-    font-size: 1.8rem;
-}
-
-h1,h2,h3 {
-    text-align: center;
-}
-
-
-.titulo span {
-    font-size: 2rem;
 }
 
 .contenedor {
@@ -67,6 +46,31 @@ h1,h2,h3 {
     }
     
 }
+
+/*Tipografia */
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+/* Titulos */
+.titulo span {
+    font-size: 2rem;
+}
+
+/* Navegacion Principal */
+
 .nav-bg {
     background-color: var(--secundario);
 }
@@ -99,6 +103,7 @@ h1,h2,h3 {
     color: var(--obscuro);
 }
 
+/* Hero Section */
 .hero {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
